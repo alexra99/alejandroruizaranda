@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/miweb/static/css/main.552e2cd9.chunk.css",
+    "main.js": "/miweb/static/js/main.fa4a0bb0.chunk.js",
+    "main.js.map": "/miweb/static/js/main.fa4a0bb0.chunk.js.map",
+    "runtime-main.js": "/miweb/static/js/runtime-main.1641e7d8.js",
+    "runtime-main.js.map": "/miweb/static/js/runtime-main.1641e7d8.js.map",
+    "static/js/2.3c3a055a.chunk.js": "/miweb/static/js/2.3c3a055a.chunk.js",
+    "static/js/2.3c3a055a.chunk.js.map": "/miweb/static/js/2.3c3a055a.chunk.js.map",
+    "index.html": "/miweb/index.html",
+    "static/css/main.552e2cd9.chunk.css.map": "/miweb/static/css/main.552e2cd9.chunk.css.map",
+    "static/js/2.3c3a055a.chunk.js.LICENSE.txt": "/miweb/static/js/2.3c3a055a.chunk.js.LICENSE.txt",
+    "static/media/bla.516063d2.png": "/miweb/static/media/bla.516063d2.png",
+    "static/media/design.8ecb3043.svg": "/miweb/static/media/design.8ecb3043.svg",
+    "static/media/etl.4f7e3c17.png": "/miweb/static/media/etl.4f7e3c17.png",
+    "static/media/excel.106d9594.PNG": "/miweb/static/media/excel.106d9594.PNG",
+    "static/media/exp.90aad0fd.png": "/miweb/static/media/exp.90aad0fd.png",
+    "static/media/graph.ba2fd1da.png": "/miweb/static/media/graph.ba2fd1da.png",
+    "static/media/hackathon.6668bbea.jpg": "/miweb/static/media/hackathon.6668bbea.jpg",
+    "static/media/intelligence.11bd2ab2.svg": "/miweb/static/media/intelligence.11bd2ab2.svg",
+    "static/media/logo.4a9777bd.svg": "/miweb/static/media/logo.4a9777bd.svg",
+    "static/media/machine.f138aa60.PNG": "/miweb/static/media/machine.f138aa60.PNG",
+    "static/media/maze.fdc7472c.png": "/miweb/static/media/maze.fdc7472c.png",
+    "static/media/python.145e2397.PNG": "/miweb/static/media/python.145e2397.PNG",
+    "static/media/react_styled.c23ef94e.png": "/miweb/static/media/react_styled.c23ef94e.png",
+    "static/media/resume.b791f26c.jpg": "/miweb/static/media/resume.b791f26c.jpg",
+    "static/media/scrap.4c9fac2d.PNG": "/miweb/static/media/scrap.4c9fac2d.PNG",
+    "static/media/sps.c194cb52.png": "/miweb/static/media/sps.c194cb52.png",
+    "static/media/sql.fd084182.PNG": "/miweb/static/media/sql.fd084182.PNG",
+    "static/media/vino.e4b7cf09.png": "/miweb/static/media/vino.e4b7cf09.png",
+    "static/media/wbot.ede22053.png": "/miweb/static/media/wbot.ede22053.png",
+    "static/media/web.df293c82.PNG": "/miweb/static/media/web.df293c82.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1641e7d8.js",
+    "static/js/2.3c3a055a.chunk.js",
+    "static/css/main.552e2cd9.chunk.css",
+    "static/js/main.fa4a0bb0.chunk.js"
+  ]
+}
