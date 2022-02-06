@@ -27,19 +27,19 @@ const Navbar = () => {
                         <a href='/' onClick={closeMenu}>Home</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='sobremi' onClick={closeMenu}>Sobre mi</a>
+                        <a href='#sobremi' onClick={closeMenu}>Sobre mi</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='formacion' onClick={closeMenu}>Formación</a>
+                        <a href='#formacion' onClick={closeMenu}>Formación</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='cursos' onClick={closeMenu}>Cursos</a>
+                        <a href='#cursos' onClick={closeMenu}>Cursos</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='proyectos' onClick={closeMenu}>Proyectos</a>
+                        <a href='#proyectos' onClick={closeMenu}>Proyectos</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='contacto' onClick={closeMenu}>Contacto</a>
+                        <a href='#contacto' onClick={closeMenu}>Contacto</a>
                     </li>
                 </ul>
             </nav>

@@ -13,7 +13,8 @@ function ContactPage() {
     const email = <EmailIcon />
     const location = <LocationOnIcon />
     return (
-        <MainLayout>
+        <div className='ContactPage' id='contacto'>
+            <MainLayout>
             <Title title={'Contacto'} span={'Contacto'} />
             <ContactPageStyled >
             <InnerLayout className={'contact-section'}>
@@ -52,6 +53,8 @@ function ContactPage() {
             </InnerLayout>
             </ContactPageStyled>
         </MainLayout>
+        </div>
+        
     )
 }
 

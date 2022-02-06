@@ -6,7 +6,8 @@ import {MainLayout, InnerLayout} from '../styles/Layouts';
 
 function BlogsPage() {
     return (
-        <MainLayout>
+        <div className='BlogsPage' id='cursos'>
+            <MainLayout>
             <BlogsStyled>
             <Title title={'Cursos'} span={'Cursos'} />
                 <InnerLayout className={'blog'}>
@@ -32,6 +33,7 @@ function BlogsPage() {
                 </InnerLayout>
             </BlogsStyled>
         </MainLayout>
+    </div>   
     )
 }
 

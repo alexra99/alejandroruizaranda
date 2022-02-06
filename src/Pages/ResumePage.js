@@ -5,10 +5,13 @@ import Resume from '../Components/Resume';
 
 function ResumePage() {
     return (
-        <MainLayout>
+        <div className='ResumePage' id='formacion'>
+            <MainLayout>
             <Skills />
             <Resume />
         </MainLayout>
+        </div>
+        
     )
 }
 

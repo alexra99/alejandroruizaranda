@@ -8,6 +8,7 @@ import ReviewsSection from '../Components/ReviewsSetion';
 
 function AboutPage() {
     return (
+     <div className='AboutPage' id='sobremi'>
         <MainLayout>
             <AboutStyled >
                 <Title title={'Sobre Mi'} span={'Sobre Mi'} />
@@ -15,7 +16,8 @@ function AboutPage() {
                 <ServicesSection />
                 <ReviewsSection />
             </AboutStyled >
-        </MainLayout>
+            </MainLayout>
+    </div>
     )
 }
 

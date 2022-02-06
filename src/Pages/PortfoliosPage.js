@@ -22,12 +22,15 @@ function PortfoliosPage() {
         setMenuItems(filteredData);
     }
     return (
-        <MainLayout>
+        <div className='PortfoliosPage' id='proyectos'>
+            <MainLayout>
             <Title title={'Proyectos'} span={'Proyectos'} />
             <InnerLayout>
                 <Menu menuItem={menuItem} />
             </InnerLayout>
         </MainLayout>
+        </div>
+        
     )
 }
 
