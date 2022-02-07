@@ -1,14 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import resume from "../img/resume.jpg";
-import PrimaryButton from "./PrimaryButton";
-import FileSaver from "file-saver";
-import { Button } from "@material-ui/core";
+import cv from "../img/Curriculum.pdf";
 
 function ImageSection() {
-  const onDownload = () => FileSaver.saveAs(
-    process.env.REACT_APP_CLIENT_URL + "../img/Curriculum.pdf",
-    "CvAlejandroRuiz.pdf")
   return (
     <ImageSectionStyled>
       <div className="left-content">
@@ -58,7 +53,7 @@ function ImageSection() {
             </p>
           </div>
         </div>
-        <button className="dwn"onClick={onDownload}>Descargar CV</button>
+        <a href={cv} download='cvAlejandroRuiz'><button className='dwn'type='submit'>Descargar CV</button></a>
         
       </div>
     </ImageSectionStyled>
@@ -76,6 +71,7 @@ const ImageSectionStyled = styled.div`
   }
   .dwn{
     background-color: var(--primary-color);
+    border-radius: 12px;
     padding: 0.4rem 1.6rem;
     color: white;
     cursor: pointer;
@@ -84,20 +80,6 @@ const ImageSectionStyled = styled.div`
     text-transform: uppercase;
     position: relative;
     transition: all 0.4s ease-in-out;
-    &::after {
-        content: "";
-        position: absolute;
-        width: 0;
-        height: 0.2rem;
-        transition: all 0.4s ease-in-out;
-        left: 0;
-        bottom: 0;
-        opacity: 0.7;
-  }
-  &:hover::after {
-    width: 100%;
-    background-color: var(--white-color);
-  }
   }
   .left-content {
     width: 80%;
