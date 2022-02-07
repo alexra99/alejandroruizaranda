@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/miweb/static/css/main.079a9e39.chunk.css",
-    "main.js": "/miweb/static/js/main.246654f0.chunk.js",
-    "main.js.map": "/miweb/static/js/main.246654f0.chunk.js.map",
+    "main.css": "/miweb/static/css/main.a788e8e6.chunk.css",
+    "main.js": "/miweb/static/js/main.6350b324.chunk.js",
+    "main.js.map": "/miweb/static/js/main.6350b324.chunk.js.map",
     "runtime-main.js": "/miweb/static/js/runtime-main.1641e7d8.js",
     "runtime-main.js.map": "/miweb/static/js/runtime-main.1641e7d8.js.map",
     "static/js/2.abdc5021.chunk.js": "/miweb/static/js/2.abdc5021.chunk.js",
     "static/js/2.abdc5021.chunk.js.map": "/miweb/static/js/2.abdc5021.chunk.js.map",
     "index.html": "/miweb/index.html",
-    "static/css/main.079a9e39.chunk.css.map": "/miweb/static/css/main.079a9e39.chunk.css.map",
+    "static/css/main.a788e8e6.chunk.css.map": "/miweb/static/css/main.a788e8e6.chunk.css.map",
     "static/js/2.abdc5021.chunk.js.LICENSE.txt": "/miweb/static/js/2.abdc5021.chunk.js.LICENSE.txt",
     "static/media/Curriculum.3969c388.pdf": "/miweb/static/media/Curriculum.3969c388.pdf",
     "static/media/bla.516063d2.png": "/miweb/static/media/bla.516063d2.png",
@@ -18,13 +18,13 @@
     "static/media/exp.90aad0fd.png": "/miweb/static/media/exp.90aad0fd.png",
     "static/media/grado.00e8575b.jpeg": "/miweb/static/media/grado.00e8575b.jpeg",
     "static/media/graph.ba2fd1da.png": "/miweb/static/media/graph.ba2fd1da.png",
+    "static/media/hackathon.850ab838.png": "/miweb/static/media/hackathon.850ab838.png",
     "static/media/intelligence.11bd2ab2.svg": "/miweb/static/media/intelligence.11bd2ab2.svg",
     "static/media/logo.4a9777bd.svg": "/miweb/static/media/logo.4a9777bd.svg",
     "static/media/machine.f138aa60.PNG": "/miweb/static/media/machine.f138aa60.PNG",
     "static/media/maze.fdc7472c.png": "/miweb/static/media/maze.fdc7472c.png",
     "static/media/python.145e2397.PNG": "/miweb/static/media/python.145e2397.PNG",
     "static/media/react_styled.c23ef94e.png": "/miweb/static/media/react_styled.c23ef94e.png",
-    "static/media/resume.b791f26c.jpg": "/miweb/static/media/resume.b791f26c.jpg",
     "static/media/resume.ca6574ed.png": "/miweb/static/media/resume.ca6574ed.png",
     "static/media/scrap.4c9fac2d.PNG": "/miweb/static/media/scrap.4c9fac2d.PNG",
     "static/media/sps.c194cb52.png": "/miweb/static/media/sps.c194cb52.png",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.1641e7d8.js",
     "static/js/2.abdc5021.chunk.js",
-    "static/css/main.079a9e39.chunk.css",
-    "static/js/main.246654f0.chunk.js"
+    "static/css/main.a788e8e6.chunk.css",
+    "static/js/main.6350b324.chunk.js"
   ]
 }
