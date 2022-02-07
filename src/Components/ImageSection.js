@@ -1,13 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 import resume from "../img/resume.jpg";
+import grado from "../img/grado.jpeg";
+
 import cv from "../img/Curriculum.pdf";
 
 function ImageSection() {
   return (
     <ImageSectionStyled>
       <div className="left-content">
-        <img src={resume} alt="" />
+        <img src={grado} alt="" />
       </div>
       <div className="right-content">
         <h4>

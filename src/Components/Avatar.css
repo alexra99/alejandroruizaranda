@@ -1,0 +1,10 @@
+.photo{
+    display: block;
+    margin: auto;
+    width: 90px;
+    height: 114px;
+    border-radius: 150%;
+    object-fit: contain;
+    box-shadow: 0 0 20px #007bff;
+    
+}

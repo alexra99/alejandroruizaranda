@@ -5,16 +5,19 @@ import GithubIcon from "@material-ui/icons/GitHub";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import Particle from "../Components/Particle";
 import Typical from "react-typical";
+import Avatar from "../Components/Avatar.js"
 import Typewriter from "typewriter-effect";
 
 function HomePage() {
   return (
     <HomePageStyled>
+     
       <div className="particle-con">
         <Particle />
       </div>
       <div className="typography">
         <h1 class="titulo">
+        <Avatar />
           Hola! Soy
           {
             <span>
