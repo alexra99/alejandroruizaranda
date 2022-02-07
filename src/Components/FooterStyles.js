@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Box = styled.div`
-padding: 30px 60px;
+padding: 15px 60px;
 background: black;
 position: absolute;
 bottom: 0;
@@ -9,7 +9,7 @@ width: 100%;
 
 
 @media (max-width: 700px) {
-	padding: 70px 30px;
+	padding: 30px 30px;
 }
 `;
 
@@ -17,7 +17,7 @@ export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	max-width: 700px;
+	max-width: 500px;
 	margin: 0 auto;
 	/* background: red; */
 `

@@ -1,3 +1,4 @@
+   
 import React from 'react'
 import styled from 'styled-components';
 
@@ -19,13 +20,16 @@ const ProgressBarStyled = styled.div`
     .progress-bar{
         display: flex;
         align-items: center;
+        background-color: transparent;
         p{
+            position:fixed;
             padding-right: 1.1rem;
+            color:black;
         }
         .progress{
             position: relative;
             width: 100%;
-            height: .4rem;
+            height: 30px;
             background-color: var(--border-color);
             span{
                 position: absolute;

@@ -46,7 +46,7 @@ const ContactItemStyled = styled.div`
     }
 
     .right-content{
-       
+       height:10%
         h6{
             color: var(--white-color);
             font-size: 1.2rem;

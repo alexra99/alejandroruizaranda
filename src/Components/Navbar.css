@@ -40,7 +40,7 @@
 
 .header .nav-item a:hover {
   padding-bottom: 1px;
-  border-bottom: 3px solid var(--secondary-color);
+  border-bottom: 3px solid var(--primary-color);
 }
 
 .hamburger {

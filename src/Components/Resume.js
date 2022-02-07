@@ -32,7 +32,7 @@ function Resume() {
                     />
                 </div>
                 <div className="small-title u-small-title-margin">
-                    <SmallTitle icon={school} title={'Formación Educativa'} />
+                    <SmallTitle icon={school} title={'Estudios Oficiales'} />
                 </div>
                 <div className="resume-content ">
                     <ResumeItem 
@@ -45,7 +45,13 @@ function Resume() {
                         year={'2016 - 2018'} 
                         title={'Bachillerato Cientifico-Tecnológico'}
                         subTitle={'I.E.S Berenguela de Castilla Bolaños de Calatrava'}
-                        text={'EVAU con Nota Media: 9.03.'} 
+                        text={'EVAU con Nota Media: 9.03'} 
+                    />
+                    <ResumeItem 
+                        year={'2015'} 
+                        title={'B1 Cambridge English: Preliminary (PET)'}
+                        subTitle={'Cambridge English'}
+                        text={'Título oficial que acredita el nivel B1 de inglés.'} 
                     />
                 </div>
             </InnerLayout>

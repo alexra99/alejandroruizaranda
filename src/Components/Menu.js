@@ -51,6 +51,7 @@ const MenuItemStyled = styled.div`
                 width: 100%;
                 height: 30vh;
                 object-fit: cover;
+                border-radius: 10%;         
             }
             ul{
                 transform: translateY(-600px);
@@ -91,6 +92,7 @@ const MenuItemStyled = styled.div`
                     height: 0;
                     width: 0;
                     transition: all .4s ease-in-out;
+
                 }
             }
             .portfolio-image:hover{
