@@ -24,22 +24,22 @@ const Navbar = () => {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                        <a href='/' onClick={closeMenu}>Home</a>
+                        <a href='/' onClick={closeMenu}>HOME</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#sobremi' onClick={closeMenu}>Sobre mi</a>
+                        <a href='#sobremi' onClick={closeMenu}>SOBRE MI</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#formacion' onClick={closeMenu}>Formación</a>
+                        <a href='#formacion' onClick={closeMenu}>FORMACIÓN</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#cursos' onClick={closeMenu}>Cursos</a>
+                        <a href='#cursos' onClick={closeMenu}>CURSOS</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#proyectos' onClick={closeMenu}>Proyectos</a>
+                        <a href='#proyectos' onClick={closeMenu}>PROYECTOS</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#contacto' onClick={closeMenu}>Contacto</a>
+                        <a href='#contacto' onClick={closeMenu}>CONTACTO</a>
                     </li>
                 </ul>
             </nav>
