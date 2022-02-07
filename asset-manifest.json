@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/miweb/static/css/main.20fb5e51.chunk.css",
-    "main.js": "/miweb/static/js/main.eed8e461.chunk.js",
-    "main.js.map": "/miweb/static/js/main.eed8e461.chunk.js.map",
+    "main.js": "/miweb/static/js/main.9957addc.chunk.js",
+    "main.js.map": "/miweb/static/js/main.9957addc.chunk.js.map",
     "runtime-main.js": "/miweb/static/js/runtime-main.1641e7d8.js",
     "runtime-main.js.map": "/miweb/static/js/runtime-main.1641e7d8.js.map",
-    "static/js/2.81030dd4.chunk.js": "/miweb/static/js/2.81030dd4.chunk.js",
-    "static/js/2.81030dd4.chunk.js.map": "/miweb/static/js/2.81030dd4.chunk.js.map",
+    "static/js/2.69205145.chunk.js": "/miweb/static/js/2.69205145.chunk.js",
+    "static/js/2.69205145.chunk.js.map": "/miweb/static/js/2.69205145.chunk.js.map",
     "index.html": "/miweb/index.html",
     "static/css/main.20fb5e51.chunk.css.map": "/miweb/static/css/main.20fb5e51.chunk.css.map",
-    "static/js/2.81030dd4.chunk.js.LICENSE.txt": "/miweb/static/js/2.81030dd4.chunk.js.LICENSE.txt",
+    "static/js/2.69205145.chunk.js.LICENSE.txt": "/miweb/static/js/2.69205145.chunk.js.LICENSE.txt",
+    "static/media/Curriculum.3969c388.pdf": "/miweb/static/media/Curriculum.3969c388.pdf",
     "static/media/bla.516063d2.png": "/miweb/static/media/bla.516063d2.png",
     "static/media/design.8ecb3043.svg": "/miweb/static/media/design.8ecb3043.svg",
     "static/media/etl.4f7e3c17.png": "/miweb/static/media/etl.4f7e3c17.png",
@@ -32,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1641e7d8.js",
-    "static/js/2.81030dd4.chunk.js",
+    "static/js/2.69205145.chunk.js",
     "static/css/main.20fb5e51.chunk.css",
-    "static/js/main.eed8e461.chunk.js"
+    "static/js/main.9957addc.chunk.js"
   ]
 }
