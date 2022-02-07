@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/miweb/static/css/main.20fb5e51.chunk.css",
-    "main.js": "/miweb/static/js/main.9957addc.chunk.js",
-    "main.js.map": "/miweb/static/js/main.9957addc.chunk.js.map",
+    "main.css": "/miweb/static/css/main.079a9e39.chunk.css",
+    "main.js": "/miweb/static/js/main.246654f0.chunk.js",
+    "main.js.map": "/miweb/static/js/main.246654f0.chunk.js.map",
     "runtime-main.js": "/miweb/static/js/runtime-main.1641e7d8.js",
     "runtime-main.js.map": "/miweb/static/js/runtime-main.1641e7d8.js.map",
-    "static/js/2.69205145.chunk.js": "/miweb/static/js/2.69205145.chunk.js",
-    "static/js/2.69205145.chunk.js.map": "/miweb/static/js/2.69205145.chunk.js.map",
+    "static/js/2.abdc5021.chunk.js": "/miweb/static/js/2.abdc5021.chunk.js",
+    "static/js/2.abdc5021.chunk.js.map": "/miweb/static/js/2.abdc5021.chunk.js.map",
     "index.html": "/miweb/index.html",
-    "static/css/main.20fb5e51.chunk.css.map": "/miweb/static/css/main.20fb5e51.chunk.css.map",
-    "static/js/2.69205145.chunk.js.LICENSE.txt": "/miweb/static/js/2.69205145.chunk.js.LICENSE.txt",
+    "static/css/main.079a9e39.chunk.css.map": "/miweb/static/css/main.079a9e39.chunk.css.map",
+    "static/js/2.abdc5021.chunk.js.LICENSE.txt": "/miweb/static/js/2.abdc5021.chunk.js.LICENSE.txt",
     "static/media/Curriculum.3969c388.pdf": "/miweb/static/media/Curriculum.3969c388.pdf",
     "static/media/bla.516063d2.png": "/miweb/static/media/bla.516063d2.png",
     "static/media/design.8ecb3043.svg": "/miweb/static/media/design.8ecb3043.svg",
     "static/media/etl.4f7e3c17.png": "/miweb/static/media/etl.4f7e3c17.png",
     "static/media/excel.106d9594.PNG": "/miweb/static/media/excel.106d9594.PNG",
     "static/media/exp.90aad0fd.png": "/miweb/static/media/exp.90aad0fd.png",
+    "static/media/grado.00e8575b.jpeg": "/miweb/static/media/grado.00e8575b.jpeg",
     "static/media/graph.ba2fd1da.png": "/miweb/static/media/graph.ba2fd1da.png",
     "static/media/intelligence.11bd2ab2.svg": "/miweb/static/media/intelligence.11bd2ab2.svg",
     "static/media/logo.4a9777bd.svg": "/miweb/static/media/logo.4a9777bd.svg",
@@ -24,6 +25,7 @@
     "static/media/python.145e2397.PNG": "/miweb/static/media/python.145e2397.PNG",
     "static/media/react_styled.c23ef94e.png": "/miweb/static/media/react_styled.c23ef94e.png",
     "static/media/resume.b791f26c.jpg": "/miweb/static/media/resume.b791f26c.jpg",
+    "static/media/resume.ca6574ed.png": "/miweb/static/media/resume.ca6574ed.png",
     "static/media/scrap.4c9fac2d.PNG": "/miweb/static/media/scrap.4c9fac2d.PNG",
     "static/media/sps.c194cb52.png": "/miweb/static/media/sps.c194cb52.png",
     "static/media/sql.fd084182.PNG": "/miweb/static/media/sql.fd084182.PNG",
@@ -33,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1641e7d8.js",
-    "static/js/2.69205145.chunk.js",
-    "static/css/main.20fb5e51.chunk.css",
-    "static/js/main.9957addc.chunk.js"
+    "static/js/2.abdc5021.chunk.js",
+    "static/css/main.079a9e39.chunk.css",
+    "static/js/main.246654f0.chunk.js"
   ]
 }
