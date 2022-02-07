@@ -1,37 +1,35 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 import resume from '../img/resume.jpg';
 
 function Navigation() {
+    const [click, setClick] = useState(false)
+    const handleClick = () => setClick(!click)
+
+    const closeMenu = () => setClick(false)
     return (
         <NavigationStyled>
-            <div className="avatar">
-                <img src={resume} alt=""/>
-            </div>
             <ul className="nav-items">
-                <li className="nav-item">
-                    <NavLink to="/" activeClassName="active-class" exact>Portada</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink to="/about" activeClassName="active-class" exact>Sobre mi</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink to="/resume" activeClassName="active-class" exact>Formación</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink to="/portfolios" activeClassName="active-class" exact>Proyectos</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink to="/blogs" activeClassName="active-class" exact>Cursos</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink to="/contact" activeClassName="active-class" exact>Contacto</NavLink>
-                </li>
+            <li className='nav-item'>
+                    <a href='/' onClick={closeMenu}>Home</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#sobremi' onClick={closeMenu}>Sobre mi</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#formacion' onClick={closeMenu}>Formación</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#cursos' onClick={closeMenu}>Cursos</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#proyectos' onClick={closeMenu}>Proyectos</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#contacto' onClick={closeMenu}>Contacto</a>
+                    </li>
             </ul>
-            <footer className="footer">
-                <p>@2022 <b>Alejandro Ruiz Aranda</b></p>
-            </footer>
         </NavigationStyled>
     )
 }
@@ -44,18 +42,6 @@ const NavigationStyled = styled.nav`
     height: 100%;
     width: 100%;
     border-right: 1px solid var(--border-color);
-    .avatar{
-        width: 100%;
-        border-bottom: 1px solid var(--border-color);
-        text-align: center;
-        padding: 1rem 0;
-        img{
-            width: 70%;
-            border-radius: 50%;
-            border: 8px solid var(--border-color);
-        }
-    }
-
     .nav-items{
         width: 100%;
         text-align: center;
@@ -91,22 +77,10 @@ const NavigationStyled = styled.nav`
                     z-index: -1;
                 }
             }
-
             a:hover::before{
                 width: 100%;
                 height: 100%;
             }
-        }
-    }
-
-    footer{
-        border-top: 1px solid var(--border-color);
-        width: 100%;
-        p{
-            padding: 1.3rem 0;
-            font-size: 1.1rem;
-            display: block;
-            text-align: center;
         }
     }
 `;

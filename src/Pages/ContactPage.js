@@ -19,9 +19,6 @@ function ContactPage() {
             <ContactPageStyled >
             <InnerLayout className={'contact-section'}>
                 <div className="left-content">
-                    <div className="contact-title">
-                        <h4>Ponte en contacto conmigo</h4>
-                    </div>
                     <form  className="form">
                         <div className="form-field">
                             <label htmlFor="name"  >Nombre*</label>
@@ -58,8 +55,9 @@ function ContactPage() {
     )
 }
 
-const ContactPageStyled = styled.section`
+const ContactPageStyled = styled.section`;
     .contact-section{
+
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 2rem;
@@ -69,7 +67,15 @@ const ContactPageStyled = styled.section`
                 margin-bottom: 3rem;
             }
         }
-        .right-content{
+        .left-content{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            @media screen and (max-width: 502px){
+                width: 70%;
+            }
+
+        }
+        .right-content{  
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             @media screen and (max-width: 502px){

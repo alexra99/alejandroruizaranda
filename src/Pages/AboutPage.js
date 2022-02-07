@@ -4,7 +4,6 @@ import ImageSection from '../Components/ImageSection';
 import Title from '../Components/Title';
 import {MainLayout} from '../styles/Layouts';
 import ServicesSection from '../Components/ServicesSection';
-import ReviewsSection from '../Components/ReviewsSetion';
 
 function AboutPage() {
     return (
@@ -14,7 +13,6 @@ function AboutPage() {
                 <Title title={'Sobre Mi'} span={'Sobre Mi'} />
                 <ImageSection />
                 <ServicesSection />
-                <ReviewsSection />
             </AboutStyled >
             </MainLayout>
     </div>
@@ -22,7 +20,6 @@ function AboutPage() {
 }
 
 const AboutStyled = styled.section`
-    
 `;
 
 export default AboutPage

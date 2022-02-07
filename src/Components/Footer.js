@@ -1,37 +1,23 @@
-import React from 'react'
-import './Footer.css'
+import React from "react";
+import {
+Box,
+Container,
+Row,
+Column,
+FooterLink,
+Heading,
+} from "./FooterStyles";
 
 const Footer = () => {
-    return (
-        <div className='footer'>
-            <div className='container'>
-                <ul>
-                    <li className='nav-item'>
-                        <a href='/'>Home</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='sobremi'>Sobre mi <i class="fa fa-microphone-slash" aria-hidden="true"></i></a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='formacion'>Formación</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='proyectos'>Proyectos</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='cursos'>Cursos</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='contacto'>Contacto</a>
-                    </li>
-                </ul>
-                <div className='bottom'>
-                    <span className='line'></span>
-                    <p>2022 Alejandro Ruiz Aranda All rights reserved</p>
-                </div>
-            </div>
-        </div>
-    )
-}
-
-export default Footer
+return (
+	<Box>
+	<h1 style={{ color: "white",
+				textAlign: "center",
+				marginTop: "0px" }}>
+	<h4>2022  © Copyright Desarrollado por Alejandro Ruiz Aranda</h4>
+	</h1>
+        
+	</Box>
+);
+};
+export default Footer;

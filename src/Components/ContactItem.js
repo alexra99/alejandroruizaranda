@@ -20,10 +20,15 @@ function ContactItem({title, icon, cont1, cont2}) {
 }
 
 const ContactItemStyled = styled.div`
+   
     padding:1.5rem 2rem;
     background-color: var(--background-dark-grey);
-    display: flex;
     align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    @media screen and (max-width: 502px){
+         width: 100%;
+    }
     &:not(:last-child){
         margin-bottom: 2.5rem;
     }
@@ -41,6 +46,7 @@ const ContactItemStyled = styled.div`
     }
 
     .right-content{
+       
         h6{
             color: var(--white-color);
             font-size: 1.2rem;

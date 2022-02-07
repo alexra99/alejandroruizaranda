@@ -5,7 +5,7 @@ function ServiceCard({ image, title, paragraph }) {
     return (
         <ServiceCardStyled2 >
             <div className="container">
-                <img src={image} alt="" width={600}/>
+                <img src={image} alt="" />
                 <h4>{title}</h4>
                 <p>{paragraph}</p>
             </div>
@@ -13,6 +13,7 @@ function ServiceCard({ image, title, paragraph }) {
     )}
 
 const ServiceCardStyled2 = styled.div`
+    
     img{
         box-shadow: 0 0 20px #007bff;
     }
@@ -28,6 +29,11 @@ const ServiceCardStyled2 = styled.div`
         transform: translateY(3px);
     }
     .container{
+        display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            @media screen and (max-width: 102px){
+                width: 70%;
+            }
         padding: 1.2rem;
         h4{
             color: var(--white-color);
